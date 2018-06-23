@@ -1,0 +1,160 @@
+@import "fonts.css";
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	width:99%;
+	height:100%;
+	background-color:ghostwhite;
+}
+.header
+{
+	width:99%;
+	margin-top:0%;
+	top:0;
+	left:0;
+	position:fixed;
+	height:62px;
+	line-height:62px;
+	padding:6px;
+	color:ghostwhite;
+	background-color:black;
+	box-shadow:2px 2px black;
+}
+.header>ul>li
+{
+	list-style:none;
+	display:inline-block;
+	margin:4px;
+	padding:4px;
+	letter-spacing:2px;
+	font-family:oswald;
+	font-size:1.15em;
+}
+.logo>a
+{
+	font-size:1.75em;
+	color:red;
+	float:left;
+}
+a{
+	color:ghostwhite;
+	text-decoration:none;
+}
+.clear
+{
+	clear:both;
+}
+.cat-box
+{
+	display:block;
+}
+.sml-blk
+{
+	display:inline-block;
+	width:175px;
+	text-align:center;
+	height:140px;
+	line-height:128px;
+	padding:20px 16px;
+	margin:-2px;
+	z-index:0;
+	cursor:pointer;
+}
+.sml-blk:hover,.sml-blk>*:hover
+{	
+z-index:90;
+font-family:oswald;
+letter-spacing:2px;
+}
+.sml-blk>span
+{
+	font-family:oswald;
+	letter-spacing:2px;
+}
+.msg
+{
+	margin-top:80px;
+	margin-bottom:8px;
+	width:100%;
+	text-align:center;
+	font-family:oswald;
+	font-size:2.5em;
+	letter-spacing:3px;
+	word-spacing:2px;
+	color:red;
+}
+/**********************************************/
+.footer
+{
+	text-align:center;
+	bottom:0px;
+	width:99%;
+	margin-top:20px;
+	padding-left:20px;
+	list-style:none;
+	background-color:black;
+	color:ghostwhite;
+	display:inline-block;
+}
+.left{float:left;}
+.right{float:right;}
+.footnote{padding:4px;margin-left:5%;margin-right:5%;}
+.wide{width:99%;}
+.footnote>h3
+{
+	font-family:oswald;
+	margin-top:-1px;
+	color:red;
+	margin-bottom:-4px;
+	letter-spacing:3px;
+}
+h3>hr
+{
+	width:100px;
+	margin-top:-3px;
+	text-align:left;
+	height:1px;
+	color:yellow;
+}
+li
+{list-style-image:url("img.png");
+text-align:right;}
+.mid
+{
+	width:69.8%;
+}
+.small
+{width:29%;}
+h4
+{background-color:#3e3939;
+padding:12px;
+width:99%;
+margin:4px;
+color:ghostwhite;
+letter-spacing:4px;
+font-size:1.25em;}
+.btn
+{
+	background-color:#6b0848;
+	padding:8px;
+	font-weight:bolder;
+	color:red;
+	display:inline-block;
+	margin:4px;
+	letter-spacing:4px;
+	border-radius:5px;
+}
+input{
+	margin:4px;
+	padding:4px;
+}
+.quest
+{
+	font-weight:bolder;
+	letter-spacing:2px;
+	word-spacing:2px;
+}

@@ -1,0 +1,30 @@
+@font-face
+{
+	font-family:oswald;
+	src:url("fonts/Oswald.ttf");
+}
+@font-face
+{
+	font-family:pirates;
+	src:url("fonts/Pirates.otf");
+}
+@font-face
+{
+	font-family:Ail;
+	src:url("fonts/Ailerons-Typeface.otf");
+}
+@font-face
+{
+	font-family:Arc;
+	src:url("fonts/Arciform.otf");
+}
+@font-face
+{
+	font-family:blackt;
+	src:url("fonts/Blackthorns.ttf");
+}
+.footnote
+{
+	font-family:ail;
+	font-size:19px;
+}
